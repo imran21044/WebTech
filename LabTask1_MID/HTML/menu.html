@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            background: #444;
+        }
+
+        nav ul li {
+            margin: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 15px;
+            display: inline-block;
+        }
+
+        nav ul li img {
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 6px;
+        }
+
+        section {
+            width: 80%;
+            background: #fff;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+        }
+
+        fieldset {
+            border: 2px solid #aaa;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        article {
+            margin-bottom: 20px;
+        }
+
+        article strong {
+            font-size: 1.2em;
+        }
+
+        .price {
+            float: right;
+            font-weight: bold;
+            color: #27ae60;
+        }
+
+        article img {
+            width: 250px;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 10px;
+            display: block;
+        }
+
+        footer {
+            text-align: center;
+            background: #333;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <h1>Our Delicious Menu</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1046/1046784.png"> Home</a></li>
+            <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/561/561122.png"> Menu</a></li>
+            <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/847/847969.png"> About</a></li>
+            <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/3177/3177361.png"> Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Chef’s Special Section -->
+    <section id="specials">
+        <fieldset>
+            <legend><strong>Chef’s Special</strong></legend>
+
+            <article>
+                <strong>Grilled Lemon Herb Chicken</strong>
+                <span class="price">$15.99</span>
+                <p>Aromatic herbs blended with fresh lemon zest grilled to perfection.</p>
+                <img src="https://images.unsplash.com/photo-1604908177070-87aa8c8686f3?q=80&w=800" 
+                     alt="Grilled Lemon Herb Chicken">
+            </article>
+
+            <article>
+                <strong>Spicy Garlic Shrimp</strong>
+                <span class="price">$18.49</span>
+                <p>Fresh shrimp sautéed in spicy garlic butter sauce.</p>
+                <img src="https://images.unsplash.com/photo-1604909053112-3f33fc7c7d5c?q=80&w=800" 
+                     alt="Spicy Garlic Shrimp">
+            </article>
+
+        </fieldset>
+    </section>
+
+    <!-- Menu Items Section -->
+    <section id="main-menu">
+        <fieldset>
+            <legend><strong>Main Menu</strong></legend>
+
+            <article>
+                <strong>Margherita Pizza</strong>
+                <span class="price">$12.99</span>
+                <p>Classic pizza topped with fresh tomatoes, mozzarella, and basil.</p>
+                <img src="https://images.unsplash.com/photo-1548366086-81a6a3e4b463?q=80&w=800" 
+                     alt="Pizza">
+            </article>
+
+            <article>
+                <strong>Beef Burger</strong>
+                <span class="price">$10.50</span>
+                <p>Juicy grilled beef patty with cheese and fresh veggies.</p>
+                <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=800" 
+                     alt="Burger">
+            </article>
+
+            <article>
+                <strong>Pasta Alfredo</strong>
+                <span class="price">$14.20</span>
+                <p>Creamy Alfredo sauce mixed with soft fettuccine pasta.</p>
+                <img src="https://images.unsplash.com/photo-1525755662778-989d0524087e?q=80&w=800" 
+                     alt="Pasta Alfredo">
+            </article>
+
+        </fieldset>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Delicious Restaurant | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>

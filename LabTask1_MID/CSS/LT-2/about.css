@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Section Styling */
+#about-me {
+    background-color: #FFEBCC;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#education {
+    background-color: #D6F5FF;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#hobbies {
+    background-color: #E6FFCC;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Horizontal Rule Styling */
+hr {
+    height: 5px;
+    background-color: #555;
+    border: none;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.section-title {
+    font-size: 28px;
+    font-weight: bold;
+}

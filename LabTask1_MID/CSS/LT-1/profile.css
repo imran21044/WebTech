@@ -1,0 +1,52 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Profile Section Box */
+.profile-box {
+    width: 50%;                /* Centered width */
+    background-color: #ffffff;
+    margin: 30px auto;         /* Centers the section */
+    padding: 20px;             /* Box model: padding */
+    border: 2px solid #ccc;    /* Box model: border */
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Student Image Styling */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;       /* Rounded corners */
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 2px solid #aaa;
+}
+
+/* Bio Text */
+.bio {
+    font-size: 1em;            /* Using em unit */
+    color: #444;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
